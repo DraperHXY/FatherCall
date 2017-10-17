@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_image"
+    android:orientation="horizontal"
+
+    tools:context="com.draper.fathercall.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageBtn1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="26dp"
+        android:layout_x="85dp"
+        android:layout_y="517dp"
+        android:background="@mipmap/yu1"
+        android:onClick="callDad" />
+
+    <ImageButton
+        android:id="@+id/imageBtn2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_x="87dp"
+        android:layout_y="28dp"
+        android:background="@mipmap/yu2" />
+
+    <ImageButton
+        android:id="@+id/imageBtn3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_x="232dp"
+        android:layout_y="490dp"
+        android:background="@mipmap/yu3" />
+
+    <ImageButton
+        android:id="@+id/imageBtn4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_x="279dp"
+        android:layout_y="288dp"
+        android:background="@mipmap/yu4" />
+
+    <ImageButton
+        android:id="@+id/imageBtn5"
+        android:layout_width="48dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_x="45dp"
+        android:layout_y="187dp"
+        android:background="@mipmap/yu5" />
+
+    <ImageButton
+        android:id="@+id/imageBtn6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_x="262dp"
+        android:layout_y="130dp"
+        android:background="@mipmap/yu7" />
+
+    <ImageButton
+        android:id="@+id/imageBtn7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="27dp"
+        android:layout_x="107dp"
+        android:layout_y="320dp"
+        android:background="@mipmap/yu6" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="578dp"
+        android:text="play"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="576dp"
+        android:text="pause/resume"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="577dp"
+        android:text="stop"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="500dp" />
+</AbsoluteLayout>
